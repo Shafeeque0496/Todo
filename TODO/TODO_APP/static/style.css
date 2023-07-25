@@ -1,0 +1,23 @@
+body{
+    background-image: url(/static/img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: 1242px 610px ;
+}
+
+.card{
+
+    height:130px;
+    width:350px;
+    margin-left:800px;
+    margin-top:220px;
+
+}
+h2{
+text-align:center;
+
+}
+
+.btn{
+
+margin-left:130px;
+}

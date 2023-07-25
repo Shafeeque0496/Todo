@@ -1,0 +1,45 @@
+.task-head{width:1500px;
+height:30px;
+}
+
+#add{
+margin-left:1000px;
+margin-top:15px;
+}
+
+table,td{
+border:3px solid grey;
+border-collapse:collapse;
+background-color:white;
+}
+
+body{
+background-image:linear-gradient(to left, rgb(30, 252, 234), rgb(30, 252, 182));
+}
+
+table{
+width:50%;
+margin-left:300px;
+border-radius:2rem;
+}
+td{
+height:30px;
+}
+h1{
+color: red;
+
+}
+h2{
+text-align:center;
+}
+button{
+margin_top:5px;
+background-color:blue;
+border-color:white;
+border-radius:10px;
+padding:6px 12px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+}

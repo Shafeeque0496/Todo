@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Delete</title>
+    <link rel="stylesheet" href="{% static 'delete.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="card-body">
+    <form method="post" action="">
+        {% csrf_token %}
+        <p>Are you sure, you want to delete <br>"{{task}}"</p>
+        <input class="button" type="submit" value="delete">
+        <br>
+         <a class="fa fa-reply" href="{% url 'task' %}"> Go Back</a>
+
+    </form>
+</div>
+</body>
+</html>

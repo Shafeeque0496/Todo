@@ -1,0 +1,40 @@
+body{
+background-color:orange;
+margin-left:460px;
+margin-top:50px;
+}
+form{
+background-color:white;
+width:350px;
+height:450px;
+
+padding-top:20px;
+padding-left:30px;
+line-height:30px;
+border:2px solid white;
+border-radius:20px;
+box-shadow:5px 5px 5px black;
+}
+.button{
+background-color:blue;
+border-color:black;
+border-radius:10px;
+color:white;
+padding:6px 12px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+margin-left:120px;
+}
+#id_title{
+width:266px;
+height:20px;
+}
+label.id_description{
+text-align:left;
+}
+h1{
+color:red;
+text-align:center;
+}

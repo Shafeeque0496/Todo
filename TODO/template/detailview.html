@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Details</title>
+    <link rel="stylesheet" href="{% static 'detail.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="form">
+<h1>Task Details</h1>
+<form method="post" action="">
+    <h2>{{task.title}}</h2>
+    <h3>{{task.description}}</h3>
+    {% if task.completed %} completed {% else %} pending {% endif %}
+    <br><br>
+    <a class="fa fa-reply" href="{% url 'task' %}">  Go Back</a>
+</div>
+</form>
+</body>
+</html>

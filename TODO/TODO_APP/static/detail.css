@@ -1,0 +1,22 @@
+body{
+background-color:orange;
+}
+.form{
+width:260px;
+height:250px;
+background-color:white;
+text-align:center;
+padding-top:10px;
+border:1px solid white;
+border-radius:20px;
+box-shadow:5px 5px 5px grey;
+margin-left:40%;
+margin-top:100px;
+}
+h1{color:red;}
+a{background-color:tomato;
+color:white;
+text-decoration:none;
+padding:8px 16px;
+}
+a:hover{background-color:blue;}
