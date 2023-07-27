@@ -6,6 +6,8 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy, reverse
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView, DetailView, FormView
 from django.contrib.auth.mixins import LoginRequiredMixin
+
+from .form import InputForm
 from .models import Task
 
 
@@ -58,7 +60,7 @@ class CustomLoginView(LoginView):
 
 class RegisterView(FormView):
     template_name = 'register.html'
-    form_class = UserCreationForm
+    form_class = InputForm
     redirect_authenticated_user = True
     success_url = reverse_lazy('task')
 
